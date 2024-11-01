@@ -1,3 +1,3 @@
 FROM php:8.0-apache
 
-RUN ls -la /var/www/html
+RUN mod2en mod_rewrite
