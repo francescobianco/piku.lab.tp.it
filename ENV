@@ -1,2 +1,3 @@
 NGINX_SERVER_NAME=piku.lab.tp.it
+PORT=8080
 
