@@ -1,6 +1,6 @@
 services:
 
-  web:
+  apache:
     image: php:8.0-apache
     ports:
       - "8080:80"
