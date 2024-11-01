@@ -1,7 +1,7 @@
 services:
 
   apache:
-    image: php:8.0-apache
+    build: ./docker/apache
     ports:
       - "8080:80"
     volumes:
