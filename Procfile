@@ -1,2 +1,2 @@
-web: docker compose logs -f
+web: ls
 release: docker compose up -d --force-recreate --remove-orphans
