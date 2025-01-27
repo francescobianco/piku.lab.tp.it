@@ -1,0 +1,30 @@
+{
+  "name": "javanile/http-robot",
+  "description": "Automated web page interactions",
+  "version": "0.0.2",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Francesco Bianco",
+      "email": "bianco@javanile.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Javanile\\HttpRobot\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Javanile\\HttpRobot\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "donatj/mock-webserver": "^2.0"
+  }
+}

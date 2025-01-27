@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  php: &php
+    build: .
+    volumes: ['./:/app']
+
+  composer:
+    <<: *php
+    entrypoint: ['composer']
+
+  phpunit:
+    <<: *php
+    entrypoint: ['./vendor/bin/phpunit']
